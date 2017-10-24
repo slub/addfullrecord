@@ -2,6 +2,8 @@
 
 add fullrecord field into given finc Solr schema conform line-delimited JSON
 
+reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) retrieves the binary MARC record for each record (by a given folder containing single MARC record files (that can be matched by id)), writes the record into the "fullrecord" field and prints out the result to stdout  
+
 ## requirement
 
 pymarc
