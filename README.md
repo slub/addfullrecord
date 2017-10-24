@@ -29,4 +29,6 @@ optional arguments:
     -h, --help            show this help message and exit
     -marc_record_folder MARC_RECORD_FOLDER set MARC record (containing single MARC record files)
 
+### usage example
 
+    ./addfullrecord.py -marc_record_folder [PATH TO YOUR MARC RECORD FOLDER CONTAINING SINGLE MARC RECORD FILES] < [PATH TO YOUR FINC SOLR SCHEMA CONFORM LINE-DELIMITED JSON FILE] > [PATH TO THE RESULT FINC SOLR SCHEMA CONFORM LINE-DELIMITED JSON FILE]
