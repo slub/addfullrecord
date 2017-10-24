@@ -6,6 +6,20 @@ add fullrecord field into given finc Solr schema conform line-delimited JSON
 
 pymarc
 
+### install pymarc
+
+1. (optionally) install easy_install3:
+
+    sudo apt-get install python3-setuptools
+
+2. (optionally) install pip for python 3.x:
+
+    sudo easy_install3 pip
+
+3. install pymarc with pip (e.g. pip3.5):
+
+    sudo -H pip3.5 install pymarc
+
 ## usage
 
     addfullrecord.py [-h] [-marc_record_folder MARC_RECORD_FOLDER]
