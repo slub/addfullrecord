@@ -6,6 +6,7 @@ reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) re
 
 ## requirements
 
+[argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
 [pymarc](https://github.com/edsu/pymarc)
 
 ### install requirements
@@ -14,9 +15,9 @@ reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) re
 
     sudo apt-get install python3-pip
 
-2. install requirements with pip (e.g. pip3.5):
+2. install requirements with pip:
 
-    sudo -H pip3.5 install -r requirements.txt
+    sudo -H pip3 install -r requirements.txt
 
 ## usage
 
