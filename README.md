@@ -4,23 +4,19 @@ add fullrecord field into given finc Solr schema conform line-delimited JSON
 
 reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) retrieves the binary MARC record for each record (by a given folder containing single MARC record files (that can be matched by id)), writes the record into the "fullrecord" field and prints out the result to stdout  
 
-## requirement
+## requirements
 
 pymarc
 
-### install pymarc
+### install requirements
 
-1. (optionally) install easy_install3:
+1. (optionally) install pip for python 3.x:
 
-    sudo apt-get install python3-setuptools
+    sudo apt-get install python3-pip
 
-2. (optionally) install pip for python 3.x:
+3. install requirements with pip (e.g. pip3.5):
 
-    sudo easy_install3 pip
-
-3. install pymarc with pip (e.g. pip3.5):
-
-    sudo -H pip3.5 install pymarc
+    sudo -H pip3.5 install -r requirements.txt
 
 ## usage
 
