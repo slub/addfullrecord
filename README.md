@@ -6,8 +6,8 @@ reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) re
 
 ## requirements
 
-[argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
-[pymarc](https://github.com/edsu/pymarc)
+* [argparse](https://docs.python.org/3/library/argparse.html#module-argparse)
+* [pymarc](https://github.com/edsu/pymarc)
 
 ### install requirements
 
