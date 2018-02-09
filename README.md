@@ -6,15 +6,15 @@ reads a finc Solr schema conform line-delimited JSON (from stdin), (tries to) re
 
 ## requirements
 
-pymarc
+[pymarc](https://github.com/edsu/pymarc)
 
 ### install requirements
 
-1. (optionally) install pip for python 3.x:
+1. (optionally) install [pip](https://pip.pypa.io/) for Python 3.x:
 
     sudo apt-get install python3-pip
 
-3. install requirements with pip (e.g. pip3.5):
+2. install requirements with pip (e.g. pip3.5):
 
     sudo -H pip3.5 install -r requirements.txt
 
